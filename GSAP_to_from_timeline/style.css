@@ -14,7 +14,7 @@ html, body{
 body{
   background-color: #111;
 }
-#box {
+#box1 {
   height: 300px;
   width: 300px;
   background-color: crimson;
@@ -22,5 +22,10 @@ body{
 #box2 {
   height: 300px;
   width: 300px;
-  background-color: teal;
+  background-color: cyan;
+}
+#box3 {
+  height: 300px;
+  width: 300px;
+  background-color: yellow;
 }
