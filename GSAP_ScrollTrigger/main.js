@@ -38,3 +38,17 @@ gsap.from("#show h2",{
     start:"top 50%"
   }
 })
+gsap.from("#page2 #box",{
+  scale:0,
+  delay:1,
+  duration:2,
+  rotate:720,
+  scrollTrigger:{
+    trigger:"#page2 #box",
+    scroller:"body",
+    markers:true,
+    start:"top 50%",
+    scrub:2,
+    pin:true
+  }
+})
