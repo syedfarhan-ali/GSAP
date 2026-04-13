@@ -1,0 +1,69 @@
+@import url('https://cdn.jsdelivr.net/npm/@qpokychuk/gilroy@1.0.2/index.min.css');
+
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+  font-family: gilroy;
+  color: #fff;
+}
+html, body{
+  height: 100%;
+  width: 100%;
+}
+body{
+  height: 100%;
+  width: 100%;
+}
+#page1{
+  height: 100%;
+  width: 100%;
+  background-color: lightblue;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#page2{
+  height: 100%;
+  width: 100%;
+  background-color: rgb(16, 175, 228);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#page3{
+  height: 100%;
+  width: 100%;
+  background-color: rgb(6, 142, 187);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#box{
+  height: 300px;
+  width: 300px;
+  background-color: crimson;
+  
+}
+h1{
+  font-size: 60px;
+  position: relative;
+  background-color: red;
+  padding: 10px;
+}
+h2{
+  font-size: 60px;
+  position: relative;
+  background-color: crimson;
+  padding: 10px;
+}
+#show{
+  height: 100%;
+  width: 100%;
+  background-color: rgb(16, 175, 228);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 50px;
+}
